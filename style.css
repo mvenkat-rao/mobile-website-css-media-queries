@@ -1,0 +1,85 @@
+/* Basic styles for desktop */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 960px; /* Fixed width for desktop */
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flow-root; /* Clearfix for floats */
+}
+
+.main-content {
+    float: left;
+    width: 65%; /* Two-column layout */
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    float: right;
+    width: 35%; /* Two-column layout */
+    box-sizing: border-box;
+    background-color: #e2e2e2;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+img {
+    max-width: 100%; /* Important for initial image scaling */
+    height: auto;
+    display: block; /* Remove extra space below image */
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
